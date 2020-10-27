@@ -1,0 +1,100 @@
+h1{
+    color: white;
+    font-size: 120PX;
+    font-family: 'Montserrat', sans-serif;
+}
+P{
+    font-size: 25PX;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.ft img{
+    float: left;
+    width: 500px;
+}
+.badan{
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 195px;
+    padding-left: 150px;
+}
+.bingkai{
+    float:right;
+    margin-bottom: 50px;
+}
+.menu {
+    background-color: white;
+}
+.menu ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+.menu ul li a {
+    text-decoration: none;
+    color: black;
+    border: 1px solid transparent;
+}
+.menu ul li a:hover {
+    background-color:gray;
+    color: black;
+}
+.menu ul li {
+    color: black;
+    padding: 10px;
+    font-size: 20px;
+    list-style: none;
+}
+body{
+    color: white;
+    margin:0px;
+    background-color:black;
+    text-align: center;
+}
+button,input[type=submit]{
+    background-color: red;
+    color: white;
+    border : 2px white;
+    font-size: 20px;
+    padding: 20px 50px;
+}
+button{
+    cursor: pointer;
+    transition: 0,4s ease;
+}
+button:hover{
+    background-color: white;
+    color:red;
+}
+.kaki{
+    float:right;
+    margin-top: 150px;
+}
+.container {
+    display: grid;
+    flex-wrap: wrap;
+    padding: 80px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.container img {
+    width: 350px;
+    height: 250px;
+    margin: 10px;
+}
+.tangan img{
+    float: left;
+    padding: 100px;
+    width: 500px;
+    height: 500px;
+}
+.tangan p{
+    float: right;
+}
+.kuku p{
+    margin-top:10px;  
+}
+ .kuku img{
+    float:right;
+    padding: 100px;
+    width: 500px;
+    height: 500px;
+}
